@@ -1,0 +1,43 @@
+@media screen and (max-width: 560px){
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    figure {
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    figure img {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        text-align: center;
+    }
+
+    p {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 0em;
+    }
+
+    footer nav ul {
+        height: 100%;
+        width:300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer {
+        width:100%;
+    }
+
+    aside {
+        width:90%;
+        margin-right: auto;
+    }
+}

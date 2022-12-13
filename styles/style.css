@@ -1,0 +1,154 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+
+nav {
+    background-color: #2d3436;
+    border-top:#b2bec3 solid 1px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+}
+
+nav a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-size:1.4em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color:#2d3436;
+}
+
+/* HEADER */
+
+header {
+    background-image: url("../images/hong-feng-GcgntG01Ibg-unsplash.jpg");
+    height: 220px;
+    color:#fff;
+    text-shadow:2px 2px rgba(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+/* MAIN CONTENT */
+
+#main-content {
+    display:flex;
+}
+
+body main {
+    margin-top:2em;
+}
+
+p {
+   font-size: 1.2em; 
+   line-height: 1.4em;
+   margin-bottom: 0.5em;
+}
+
+
+/* MAIN */
+
+figure {
+    float: left;
+    margin-left:2em;
+    margin-right:1em;
+}
+
+figure cite {
+    display:block;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+figure cite a {
+    text-decoration: none;
+    color:black;
+}
+
+figure img {
+    width: 250px;
+}
+
+
+/* ASIDE */
+
+aside {
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-right: 2em;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+aside h2 {
+    font-size:2em;
+    background-color: #dfe6e9;
+}
+
+aside li {
+    line-height:1em;
+    margin-top: 1em;
+}
+
+aside li:nth-child(even){
+    background-color: #dfe6e9
+}
+
+aside strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2d3436;
+    margin-top:1em;
+    height: 100%;
+    text-align: center;
+    font-size: smaller;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
+
+footer nav ul {
+    height: 100%;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer nav ul a {
+    height:100%;   
+    align-items: center;
+}
